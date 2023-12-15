@@ -2,7 +2,7 @@ close all
 clear all
 
 snr=Inf; % Signal to noise ratio
-M=4; % M
+M=2; % M
 n=10; % Number of bits
 fc=1000; % Carrier frequency
 sr=fc; % Symbol rate

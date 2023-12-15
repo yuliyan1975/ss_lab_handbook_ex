@@ -54,5 +54,5 @@ figure('Name','Restored signal')
 subplot(1,1,1);         % Subplot
 plot(t,s,'b');          % Signal
 xlabel('t [s]');        % X-label                                                             
-ylabel("s'(t)");        % Y-label
+ylabel('s_(t)');        % Y-label
 grid on                 % Grid

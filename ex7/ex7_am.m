@@ -17,7 +17,7 @@ Fs=1/dt; % Sampling frequency
 sc=Ac*cos(wc*t); % Carrier
 
 sm=Am*cos(wm*t); % Cosine modulating
-%sm=Am*saw(t,wm,10); % Sawtooth bipolar
+% sm=Am*saw(t,wm,10); % Sawtooth bipolar
 
 sam=(Ac+sm).*cos(wc*t); % AM signal
 

@@ -42,4 +42,4 @@ xlabel('\tau'); % X-label
 ylabel('r_{12}(\tau)'); % Y-label
 legend('Cross-correlation function'); % Legend
 grid on
-linkaxes([ax1,ax2,ax3],'x'); % Same scale and position
+linkaxes([ax2,ax3],'x'); % Same scale and position
